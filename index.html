@@ -3,40 +3,66 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Café-Bar El paseo — Carta</title>
+  <meta name="description" content="Carta digital del Café & Bar El Koala. Consulta nuestra selección de platos y raciones." />
+  <meta name="theme-color" content="#30120f" />
 
-  <!-- Tailwind CDN (sin build) -->
+  <title>Café & Bar El Koala</title>
+
+  <!-- Tailwind se usa para la rejilla responsive y pequeñas utilidades -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Fuentes (serif para títulos + sans para texto) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./src/css/style.css" />
 </head>
 
 <body>
-  <main class="mx-auto max-w-4xl px-4 py-6">
+  <!-- PORTADA: se carga una imagen distinta según el tamaño de pantalla -->
+  <header class="hero">
+    <picture class="hero__picture" aria-hidden="true">
+      <source media="(max-width: 640px)" srcset="./img/fondomovilKoala.png">
+      <img class="hero__image" src="./img/cartelKoala.png" alt="">
+    </picture>
 
-    <!-- Barra simple (sin desplegables) -->
-<section class="mb-4 flex items-center justify-evenly">
-  <img
-    src="./img/logo.png"
-    alt="Café-Bar El Paseo"
-    class="h-96"
-    loading="eager"
-  />
+    <!-- Contenido real para tablet y ordenador -->
+    <div class="hero__overlay" aria-hidden="true"></div>
 
-</section>
+    <div class="hero__content">
+      <span class="hero__label">Café & Bar</span>
+      <h1 class="hero__title">El Koala</h1>
+      <p class="hero__subtitle">Un rincón delicioso para disfrutar sin prisas</p>
 
-    <!-- Cards “planas” (siempre visibles) -->
-    <section id="menuGrid" class="grid grid-cols-1 gap-4 md:grid-cols-2">
-    </section>
-
-    <div class="text-center mt-6 text-xs text-gray-200">
-      © <span id="year"></span> Café-Bar El paseo
+      <a href="#carta" class="hero__button">
+        <span>Ver la carta</span>
+        <span aria-hidden="true">↓</span>
+      </a>
     </div>
+
+    <!-- En móvil el botón ya está dibujado en la imagen. Esta zona lo hace pulsable. -->
+    <a href="#carta" class="hero__mobile-link" aria-label="Ver la carta"></a>
+  </header>
+
+  <main id="carta" class="menu-page">
+    <header class="menu-heading">
+      <span class="menu-heading__label">Nuestra selección</span>
+      <h2 class="menu-heading__title">Carta</h2>
+      <p class="menu-heading__text">Platos preparados para disfrutar y compartir.</p>
+
+      <div class="menu-heading__decoration" aria-hidden="true">
+        <span></span><i></i><span></span>
+      </div>
+    </header>
+
+    <!-- Tailwind controla aquí una o dos columnas -->
+    <section id="menuGrid" class="grid grid-cols-1 gap-5 md:grid-cols-2" aria-label="Carta del restaurante"></section>
+
+    <footer class="site-footer">
+      <div class="site-footer__divider"></div>
+      <p>© <span id="year"></span> Café & Bar El Koala</p>
+      <p class="site-footer__message">Gracias por visitarnos</p>
+    </footer>
   </main>
 
   <script src="./src/js/bar.js"></script>
