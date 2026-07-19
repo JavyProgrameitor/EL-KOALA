@@ -1,0 +1,25 @@
+{
+  "name": "el-koala",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Carta digital del Café & Bar El Koala",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavyProgrameitor/EL-KOALA.git"
+  },
+  "author": "Francisco Javier Gómez García",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JavyProgrameitor/EL-KOALA/issues"
+  },
+  "homepage": "https://github.com/JavyProgrameitor/EL-KOALA#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "husky": "^9.1.7"
+  }
+}

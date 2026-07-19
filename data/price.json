@@ -141,20 +141,6 @@
           "price": 4.0
         }
       ]
-    },
-    {
-      "id": "ninos",
-      "title": "Para niños",
-      "items": [
-        {
-          "name": "Pollo/Lomo con patatas",
-          "price": 8.5
-        },
-        {
-          "name": "Nugget de pollo con patatas",
-          "price": 8.5
-        }
-      ]
     }
   ]
 }
