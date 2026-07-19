@@ -1,144 +1,408 @@
 {
   "meta": {
-    "name": "Café-Bar El paseo",
+    "name": "Café & Bar El Koala",
     "subtitle": "Carta digital",
-    "address": "Avd/ Paseo Virgen de Gracia",
-    "phone": "651 832 344",
-    "extra_note": "Cada ingrediente extra se cobrará un suplemento de 0,50€."
+    "address": "",
+    "phone": "",
+    "extra_note": "Consulta con el personal cualquier duda sobre ingredientes, alérgenos o disponibilidad."
   },
   "sections": [
     {
-      "id": "carne",
-      "title": "Carne",
+      "id": "entrantes",
+      "title": "Entrantes",
+      "description": "Para compartir",
+      "image": "entrantes.jpg",
       "items": [
         {
-          "name": "Pluma Ibérica",
-          "price": 20.0
+          "name": "Bandeja de ibéricos",
+          "price": 20.0,
+          "desc": "Jamón ibérico, caña de lomo ibérico y morcón ibérico"
         },
         {
-          "name": "Lagarto Ibérico",
+          "name": "Bandeja de quesos especiales",
+          "price": 21.0
+        },
+        {
+          "name": "Queso curado",
           "price": 18.0
         },
         {
-          "name": "Surtido de croquetas",
-          "price": 12.0
+          "name": "Jamón ibérico",
+          "price": 18.0
         },
         {
-         "name": "Solomillo",
-         "price": 14.0,
-         "desc": "Solomillo con: Ajo tostado · Torta · Salsa verde · Rulo · Cebolla caramelizada"
+          "name": "Cremosito del Zújar trufado",
+          "price": 17.0
         }
       ]
     },
     {
       "id": "ensaladas",
       "title": "Ensaladas",
+      "image": "ensaladas.jpg",
       "items": [
         {
-          "name": "Mixta",
-          "price": 9.0
+          "name": "Ensalada mixta",
+          "price": 12.0
         },
         {
-          "name": "César",
-          "price": 11.0
+          "name": "Ensalada de rulo de cabra",
+          "price": 14.0,
+          "desc": "Acompañada con frutos secos"
         },
         {
-          "name": "Rulo, nueces, arándanos y cebolla caramelizada",
-          "price": 11.0
+          "name": "Ensalada de ventresca",
+          "price": 16.0,
+          "desc": "Con pimiento asado y cebolla caramelizada"
+        },
+        {
+          "name": "Ensalada templada",
+          "price": 14.0
         }
       ]
     },
     {
-      "id": "hamburguesas",
-      "title": "Hamburguesas",
+      "id": "tapas",
+      "title": "Tapas",
+      "image": "tapas.jpg",
       "items": [
         {
-          "name": "Normal",
+          "name": "Tapa de tortilla de patatas",
           "price": 5.0
         },
         {
-          "name": "Completa",
-          "price": 6.5
+          "name": "Tapa de morcilla de Guadalupe dulce o picante",
+          "price": 5.0
         },
         {
-          "name": "Buey",
-          "price": 7.5
+          "name": "Tapa de morcilla dulce con queso",
+          "price": 5.0
         },
         {
-          "name": "Buey Completa",
-          "price": 9.0
+          "name": "Tapa de morcilla dulce con manzana y miel",
+          "price": 5.0
         },
         {
-          "name": "Crispy",
-          "price": 6.5
+          "name": "Taco de carne mechada con toque mexicano",
+          "price": 5.0
+        },
+        {
+          "name": "Tapa de solomillo con Torta de la Serena",
+          "price": 5.0
+        },
+        {
+          "name": "Mollete de piripi",
+          "price": 5.0
+        },
+        {
+          "name": "Mollete de carne mechada",
+          "price": 5.0
+        },
+        {
+          "name": "Tapa de mini hamburguesa",
+          "price": 5.0
+        },
+        {
+          "name": "Tapa de costilla carnosa con salsa barbacoa",
+          "price": 5.0
         }
       ]
     },
     {
-      "id": "pescado",
-      "title": "Pescado",
+      "id": "platos-y-varios",
+      "title": "Platos y varios",
+      "image": "platos-varios.jpg",
       "items": [
         {
-          "name": "Bacalao dorado / nata",
-          "price": 13.0
+          "name": "Patatas fritas caseras",
+          "price": 6.0
         },
         {
-          "name": "Fritura de pescado",
-          "price": 19.0
+          "name": "Patatas tres salsas",
+          "price": 16.0
         },
         {
-          "name": "Gambón",
-          "price": 17.0
+          "name": "Croquetas variadas",
+          "price": 16.0
         },
         {
-          "name": "Almejas a la marinera",
-          "price": 15.0
+          "name": "Croquetas ibéricas",
+          "price": 16.0
         },
         {
-          "name": "Rejos",
-          "price": 15.0
+          "name": "Croquetas caseras",
+          "price": 16.0
         },
         {
-          "name": "Calamares",
+          "name": "Croquetas picantes",
+          "price": 16.0
+        },
+        {
+          "name": "Berenjena frita con miel de caña",
+          "price": 9.5
+        },
+        {
+          "name": "Alcachofa confitada en AOVE a la plancha",
           "price": 14.0
         },
         {
-          "name": "Sepia",
+          "name": "Alcachofa confitada en AOVE a la plancha con jamón",
+          "price": 14.0
+        },
+        {
+          "name": "Torta de la Serena",
           "price": 16.0
+        },
+        {
+          "name": "Revuelto de patatas con carne de toro y queso laminado",
+          "price": 16.0
+        },
+        {
+          "name": "Revuelto especial Koala",
+          "price": 16.0,
+          "desc": "Patatas con carrilleras desmenuzadas"
+        },
+        {
+          "name": "Revuelto de patatas con hamburguesas",
+          "price": 16.0
+        },
+        {
+          "name": "Revuelto de patatas con gula",
+          "price": 14.0
         }
       ]
     },
     {
       "id": "bocadillos",
       "title": "Bocadillos",
+      "image": "bocadillos.jpg",
       "items": [
         {
-          "name": "Pollo/Lomo rulo y cebolla caramelizada",
+          "name": "Bocadillo de lomo, tomate y lechuga",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo de bacon con queso",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo piripi",
+          "price": 6.0,
+          "desc": "Lomo, lechuga y alioli"
+        },
+        {
+          "name": "Bocadillo de bacon con queso",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo de calamares",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo de tortilla de patatas",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo de jamón ibérico",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo de carne de toro ibérico",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo vegetal",
+          "price": 6.0
+        },
+        {
+          "name": "Bocadillo serrano",
+          "price": 6.0
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "title": "Sándwiches",
+      "image": "sandwiches.jpg",
+      "items": [
+        {
+          "name": "Sándwich mixto",
+          "price": 3.5
+        },
+        {
+          "name": "Sándwich Koala",
+          "price": 6.0,
+          "desc": "York, queso, huevo y cebolla"
+        },
+        {
+          "name": "Sándwich vegetal",
           "price": 5.0
+        }
+      ]
+    },
+    {
+      "id": "hamburguesas",
+      "title": "Hamburguesas",
+      "image": "hamburguesas.jpg",
+      "items": [
+        {
+          "name": "Hamburguesa completa",
+          "price": 4.0
+        },
+        {
+          "name": "Hamburguesa crispy de pollo",
+          "price": 4.5
+        },
+        {
+          "name": "Hamburguesa de ternera",
+          "price": 4.5
+        },
+        {
+          "name": "Hamburguesa Koala",
+          "price": 8.5,
+          "desc": "2 hamburguesas, bacon, huevo frito, cebolla crujiente, pepinillo, tomate, lechuga y queso cheddar"
+        }
+      ]
+    },
+    {
+      "id": "arroces",
+      "title": "Paelleras de arroces",
+      "description": "Precio por persona. Encargo mínimo para 2 personas.",
+      "image": "arroces.jpg",
+      "items": [
+        {
+          "name": "Paella de marisco",
+          "price": 12.0
+        },
+        {
+          "name": "Arroz con carrilleras",
+          "price": 12.0
+        },
+        {
+          "name": "Arroz con secreto",
+          "price": 12.0
+        },
+        {
+          "name": "Fideuá con alioli",
+          "price": 12.0
+        }
+      ]
+    },
+    {
+      "id": "pescado",
+      "title": "Pescado",
+      "image": "pescado.jpg",
+      "items": [
+        {
+          "name": "Cazuela de langostinos al ajillo",
+          "price": 16.5
+        },
+        {
+          "name": "Bacalao dorado",
+          "price": 16.5
+        },
+        {
+          "name": "Sepia",
+          "price": 16.5
         },
         {
           "name": "Calamares",
+          "price": 16.5
+        },
+        {
+          "name": "Camarones",
+          "price": 16.5
+        },
+        {
+          "name": "Cazón adobado",
+          "price": 16.0
+        },
+        {
+          "name": "Lomo de bacalao al ajillo",
+          "price": 19.5
+        },
+        {
+          "name": "Puntillitas de Huelva",
+          "price": 19.5
+        },
+        {
+          "name": "Fritura variada",
+          "price": 19.5
+        }
+      ]
+    },
+    {
+      "id": "carnes",
+      "title": "Carnes",
+      "image": "carnes.jpg",
+      "items": [
+        {
+          "name": "Solomillo de cerdo",
+          "price": 17.0
+        },
+        {
+          "name": "Carrilleras",
+          "price": 17.0
+        },
+        {
+          "name": "Secreto al natural",
+          "price": 17.0
+        },
+        {
+          "name": "Secreto al romero",
+          "price": 17.0
+        },
+        {
+          "name": "Costilla de cerdo con salsa barbacoa",
+          "price": 18.0
+        }
+      ]
+    },
+    {
+      "id": "otros",
+      "title": "Otros",
+      "image": "otros.jpg",
+      "items": [
+        {
+          "name": "Tenders sabor cajún o queso cheddar",
+          "price": 13.0,
+          "desc": "Con cebolla crujiente"
+        },
+        {
+          "name": "Solomillo de pollo Kentucky",
+          "price": 13.0,
+          "desc": "Salsa cheddar y cebolla crujiente"
+        },
+        {
+          "name": "Perrito",
+          "price": 2.5
+        },
+        {
+          "name": "Perrito especial El Koala",
           "price": 5.0
         },
         {
-          "name": "Pollo, bacon y queso",
+          "name": "Salchipapas",
           "price": 5.0
-        },
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "title": "Postres",
+      "image": "postres.jpg",
+      "items": [
         {
-          "name": "Serranito Pollo/Lomo",
-          "price": 5.0
-        },
-        {
-          "name": "Jamón",
+          "name": "Helado de violeta",
           "price": 6.0
         },
         {
-          "name": "Patatas Cheddar Bacon",
+          "name": "Helado de mojito",
           "price": 6.0
         },
         {
-          "name": "Patatas Fritas",
-          "price": 4.0
+          "name": "Porción de tartas variadas",
+          "price": null
         }
       ]
     }
